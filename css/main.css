@@ -198,6 +198,58 @@ table.win2 {
     -moz-animation-name: fadein;
     -moz-animation-fill-mode: forwards
 }
+
+.splash tr:nth-child(2) td:nth-child(1) {
+    -webkit-animation-delay: 3.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-delay: 1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fadein;
+    -moz-animation-fill-mode: forwards
+}
+.splash tr:nth-child(2) td:nth-child(3) {
+    -webkit-animation-delay: 3.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-delay: 1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fadein;
+    -moz-animation-fill-mode: forwards
+}
+.splash tr:nth-child(1) td:nth-child(1) {
+    -webkit-animation-delay: 3.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-delay: 1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fadein;
+    -moz-animation-fill-mode: forwards
+}
+.splash tr:nth-child(1) td:nth-child(2) {
+    -webkit-animation-delay: 3.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-delay: 1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fadein;
+    -moz-animation-fill-mode: forwards
+}
+.splash tr:nth-child(1) td:nth-child(3) {
+    -webkit-animation-delay: 3.5s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: fadein;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-delay: 1s;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: fadein;
+    -moz-animation-fill-mode: forwards
+}
+
 /*.splash tr:first-child td:nth-child(odd){-webkit-animation-delay:1.3s;-webkit-animation-duration:1s;-webkit-animation-name:fadein;-webkit-animation-fill-mode:forwards;-moz-animation-delay:1.3s;-moz-animation-duration:1s;-moz-animation-name:fadein;-moz-animation-fill-mode:forwards}*/
 
 button,

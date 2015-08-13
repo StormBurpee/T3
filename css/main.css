@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic,500,500italic,700,700italic,900,900italic);
+* { font-family: 'Roboto', sans-serif!important; }
 body { background: #212121; }
-button, .button { border-width: 0px!important; }
+button, .button { border-width: 0px!important; box-shadow: none; -webkit-box-shadow: none; }
 *{box-sizing:border-box;-webkit-transition:all .8s ease;-moz-transition:all .8s ease;-o-transition:all .8s ease;transition:all .8s ease}
 #main{min-height:100vh;min-width:100vw}
 table{width:25vmin;height:25vmin;margin:1.5vh auto;}

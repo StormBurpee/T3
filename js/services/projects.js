@@ -5,6 +5,7 @@
       link: function(scope, variable, type, id) {
         var url;
         url = 'https://3t.firebaseio.com/' + id;
+        console.log(id);
         return angularFire(url, scope, variable, type);
       }
     };

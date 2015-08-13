@@ -141,13 +141,12 @@ table.win2 {
 .splash tr:nth-child(2) td:nth-child(3) {
     -webkit-animation-delay: .5s;
     -webkit-animation-duration: 1s;
-    -webkit-animation-name: fadein;
+    -webkit-animation-name: fadeinb;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-delay: .5s;
     -moz-animation-duration: 1s;
     -moz-animation-name: fadein;
     -moz-animation-fill-mode: forwards;
-	background-color: #5C6BC0;
 }
 .splash tr:nth-child(2) td:nth-child(2) {
     -webkit-animation-delay: 1s;
@@ -162,13 +161,12 @@ table.win2 {
 .splash tr:first-child td:nth-child(1) {
     -webkit-animation-delay: 1.5s;
     -webkit-animation-duration: 1s;
-    -webkit-animation-name: fadein;
+    -webkit-animation-name: fadeinb;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-delay: .5s;
     -moz-animation-duration: 1s;
     -moz-animation-name: fadein;
     -moz-animation-fill-mode: forwards;
-	background-color: #5C6BC0;
 }
 .splash tr:nth-child(3) td:nth-child(1) {
     -webkit-animation-delay: 2s;
@@ -183,13 +181,12 @@ table.win2 {
 .splash tr:first-child td:nth-child(3) {
     -webkit-animation-delay: 2.5s;
     -webkit-animation-duration: 1s;
-    -webkit-animation-name: fadein;
+    -webkit-animation-name: fadeinb;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-delay: .5s;
     -moz-animation-duration: 1s;
     -moz-animation-name: fadein;
     -moz-animation-fill-mode: forwards;
-	background-color: #5C6BC0!important;
 }
 .splash tr:nth-child(3) td:nth-child(2) {
     -webkit-animation-delay: 3s;
@@ -291,5 +288,56 @@ button:hover,
     }
     100% {
         background-color: #EF5350
+    }
+}
+
+@-moz-keyframes fadeinb {
+    0% {
+        background-color: #ddd;
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5)
+    }
+    100% {
+        background-color: #5C6BC0
+    }
+}
+@-webkit-keyframes fadeinb {
+    0% {
+        background-color: #ddd;
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5)
+    }
+    100% {
+        background-color: #5C6BC0
+    }
+}
+@-o-keyframes fadeinb {
+    0% {
+        background-color: #ddd;
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5)
+    }
+    100% {
+        background-color: #5C6BC0
+    }
+}
+@-ms-keyframes fadeinb {
+    0% {
+        background-color: #ddd;
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5)
+    }
+    100% {
+        background-color: #5C6BC0
+    }
+}
+@keyframes fadeinb {
+    0% {
+        background-color: #ddd;
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5)
+    }
+    100% {
+        background-color: #5C6BC0
     }
 }

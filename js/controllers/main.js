@@ -47,6 +47,10 @@
       if(pid == 2)
         return this.name2;
     };
+    getScope = function()
+    {
+      return $scope;
+    }
     setPlayerName = function(pid, nname) {
       if(pid == 1)
         this.name1 = nname;

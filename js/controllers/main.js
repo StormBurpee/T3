@@ -2,8 +2,6 @@
 (function() {
   app.controller('MainCtrl', function($scope, T3Factory, $location, $routeParams) {
     var checkUltimateWinner, checkWinRow, fullBoard, newGame, promise;
-    var name1 = "Player 1";
-    var name2 = "Player 2";
     $scope.$watch('game', function() {
       var _ref;
       if (((_ref = $scope.game) != null ? _ref.started : void 0) === 'started') {
@@ -18,8 +16,6 @@
         }
       }
     }, true);
-    var name1 = "Player 1";
-    var name2 = "Player 2";
     newGame = function() {
       var game, i, x, _i;
       game = {
@@ -27,8 +23,8 @@
         winner: false,
         started: 'started',
         board_turn: -1,
-        name1: this.name1,
-        name2: this.name2
+        name1: "Player 1",
+        name2: "Player 2"
       };
       for (i = _i = 0; _i <= 8; i = ++_i) {
         game["board" + i] = {

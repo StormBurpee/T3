@@ -8,7 +8,7 @@ table.win2{border:solid #e53b51}
 .p2{background-color:#e53b51;color:#ddd}
 .playable{-webkit-transform:scale(1);-moz-transform:scale(1)}
 .unplayable{-webkit-transform:scale(.8);-moz-transform:scale(.8);opacity:.5}
-.statusbar{margin-bottom:0;max-width:100%;background-color:#ec6c20;text-align:center;}
+.statusbar{margin-bottom:0;max-width:100%;background-color:#EF5350;text-align:center;}
 .statusbar p{color:#fff;font-family:"Galindo",sans-serif;font-size:5vw;font-weight:800;margin:0}
 .statusbar input{font-size:3vw;font-family:"Fauna One",serif;text-align:center;margin:5vw auto;width:60vw}
 .statusbar .playerBox{width:40vw;}

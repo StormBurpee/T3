@@ -1,5 +1,5 @@
 <div ng-class="{'playable': playable(), 'unplayable':!playable()}" class="subboard">
-    <table ng-class="{1: 'win2', 2: 'win1'}[subgame.winner]">
+    <table ng-class="{1: 'win1', 2: 'win2'}[subgame.winner]">
         <tbody>
             <tr>
                 <td ng-repeat="square in [0,1,2]" ng-class="{1: 'p1', 2: 'p2', 0: 'empty'}[subgame.board[square]]" ng-click="move(square)">&nbsp;</td>

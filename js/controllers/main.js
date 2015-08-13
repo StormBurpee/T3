@@ -8,9 +8,9 @@
         $scope.game.winner = checkUltimateWinner($scope.game);
         if ($scope.game.winner) {
           if($scope.game.winner == 1)
-            $scope.game.status = "Player " + $scope.game.name1 + " wins!";
+            $scope.game.status = $scope.game.name1 + " wins!";
           if($scope.game.winner == 2)
-            $scope.game.status = "Player " + $scope.game.name2 + " wins!";
+            $scope.game.status = $scope.game.name2 + " wins!";
           $scope.game.turn = 3;
         }
         if (!$scope.game.winner && fullBoard($scope.game)) {

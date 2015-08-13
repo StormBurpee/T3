@@ -189,7 +189,7 @@ table.win2 {
     -moz-animation-duration: 1s;
     -moz-animation-name: fadein;
     -moz-animation-fill-mode: forwards;
-	background-color: #5C6BC0;
+	background-color: #5C6BC0!important;
 }
 .splash tr:nth-child(3) td:nth-child(2) {
     -webkit-animation-delay: 3s;

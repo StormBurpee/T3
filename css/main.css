@@ -30,7 +30,7 @@ table.win2{border:solid #e53b51}
 .splash table{-webkit-transform:scale(1.8);-moz-transform:scale(1.8)}
 .splash tr:nth-child(3) td:nth-child(3){-webkit-animation-duration:1s;-webkit-animation-name:fadein;-webkit-animation-fill-mode:forwards;-moz-animation-duration:1s;-moz-animation-name:fadein;-moz-animation-fill-mode:forwards}
 .splash tr:nth-child(2) td:nth-child(2){-webkit-animation-delay:.5s;-webkit-animation-duration:1s;-webkit-animation-name:fadein;-webkit-animation-fill-mode:forwards;-moz-animation-delay:.5s;-moz-animation-duration:1s;-moz-animation-name:fadein;-moz-animation-fill-mode:forwards}
-.splash tr:first-child td:nth-child(2){-webkit-animation-delay:1s;-webkit-animation-duration:1s;-webkit-animation-name:fadein;-webkit-animation-fill-mode:forwards;-moz-animation-delay:1s;-moz-animation-duration:1s;-moz-animation-name:fadein;-moz-animation-fill-mode:forwards}
+.splash tr:first-child td:nth-child(1){-webkit-animation-delay:1s;-webkit-animation-duration:1s;-webkit-animation-name:fadein;-webkit-animation-fill-mode:forwards;-moz-animation-delay:1s;-moz-animation-duration:1s;-moz-animation-name:fadein;-moz-animation-fill-mode:forwards}
 /*.splash tr:first-child td:nth-child(odd){-webkit-animation-delay:1.3s;-webkit-animation-duration:1s;-webkit-animation-name:fadein;-webkit-animation-fill-mode:forwards;-moz-animation-delay:1.3s;-moz-animation-duration:1s;-moz-animation-name:fadein;-moz-animation-fill-mode:forwards}*/
 button,.button{background-color:#5C6BC0;font-family:"Galindo",sans-serif;}
 button:hover,.button:hover{background-color:#e53b51}

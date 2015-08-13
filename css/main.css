@@ -34,17 +34,17 @@ button:hover,.button:hover{background-color:#e53b51}
 .view-enter{opacity:0}
 .view-enter.view-enter-active{opacity:1}
 .howto .panel{min-height:100vh;background-color:#fff;}
-.howto .panel p{color:#ec6c20}
-.howto li{list-style-type:cjk-ideographic;text-align:left;color:#ec6c20;font-family:"Fauna One",serif;font-size:18px;font-weight:100}
+.howto .panel p{color:#EF5350}
+.howto li{list-style-type:cjk-ideographic;text-align:left;color:#EF5350;font-family:"Fauna One",serif;font-size:18px;font-weight:100}
 .howto button{margin:25px auto}
 @-moz-keyframes fadein{0%{background-color:#ddd;-webkit-transform:scale(.5);-moz-transform:scale(.5)}
-100%{background-color:#ec6c20}
+100%{background-color:#EF5350}
 }@-webkit-keyframes fadein{0%{background-color:#ddd;-webkit-transform:scale(.5);-moz-transform:scale(.5)}
-100%{background-color:#ec6c20}
+100%{background-color:#EF5350}
 }@-o-keyframes fadein{0%{background-color:#ddd;-webkit-transform:scale(.5);-moz-transform:scale(.5)}
-100%{background-color:#ec6c20}
+100%{background-color:#EF5350}
 }@-ms-keyframes fadein{0%{background-color:#ddd;-webkit-transform:scale(.5);-moz-transform:scale(.5)}
-100%{background-color:#ec6c20}
+100%{background-color:#EF5350}
 }@keyframes fadein{0%{background-color:#ddd;-webkit-transform:scale(.5);-moz-transform:scale(.5)}
-100%{background-color:#ec6c20}
+100%{background-color:#EF5350}
 }
